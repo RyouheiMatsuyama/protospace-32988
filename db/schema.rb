@@ -47,6 +47,7 @@ ActiveRecord::Schema.define(version: 2020_12_31_093506) do
     t.string "title"
     t.text "catch_copy"
     t.text "concept"
+    t.text "image"
     t.bigint "user_id"
     t.index ["user_id"], name: "index_prototypes_on_user_id"
   end
